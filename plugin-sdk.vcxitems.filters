@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{0ff352ba-c718-4ff4-8f07-27935ba29f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugin">
+      <UniqueIdentifier>{5fbf80c3-59cf-4f12-a565-31c0d8d3ccbc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_base.hpp">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_callback.hpp">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_emplace.hpp">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_info.hpp">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_memory.hpp">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_ready.hpp">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\sdk_version.hpp" />
+  </ItemGroup>
+</Project>
