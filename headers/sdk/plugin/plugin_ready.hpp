@@ -11,7 +11,7 @@
 
 namespace sdk::plugin
 {
-  extern "C" __declspec(dllexport) auto ready(const std::shared_ptr<spdlog::logger>&_logger, const callback & _value) -> void
+  auto ready(const std::shared_ptr<spdlog::logger>&_logger, const callback & _value) -> void
   {
     spdlog::set_default_logger(_logger);
 
