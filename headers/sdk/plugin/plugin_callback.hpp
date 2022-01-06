@@ -1,11 +1,13 @@
 #pragma once
 
+#include "plugin_loader.hpp"
+
 namespace sdk::plugin
 {
-  class callback
+  class callback : private loader
   {
   public:
-    constexpr virtual auto on_ready(void) const -> void = 0;
+    constexpr virtual auto main(void) const -> void = 0;
 
   protected:
     callback(void) noexcept {}

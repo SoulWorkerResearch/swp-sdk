@@ -1,32 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="game">
+    <Filter Include="headers">
+      <UniqueIdentifier>{633b1381-2c8b-4ec8-a42a-1edc5b1bb0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\game">
       <UniqueIdentifier>{0ff352ba-c718-4ff4-8f07-27935ba29f50}</UniqueIdentifier>
     </Filter>
-    <Filter Include="plugin">
+    <Filter Include="headers\plugin">
       <UniqueIdentifier>{5fbf80c3-59cf-4f12-a565-31c0d8d3ccbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{d31a5328-66a9-4c04-87b6-606b69dd063c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\plugin">
+      <UniqueIdentifier>{da5760d9-5f92-4ee2-ab4b-891f96639d4d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\sdk_version.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_loader.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_base.hpp">
-      <Filter>plugin</Filter>
+      <Filter>headers\plugin</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_callback.hpp">
-      <Filter>plugin</Filter>
+      <Filter>headers\plugin</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_emplace.hpp">
-      <Filter>plugin</Filter>
+      <Filter>headers\plugin</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_info.hpp">
-      <Filter>plugin</Filter>
+      <Filter>headers\plugin</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_memory.hpp">
-      <Filter>plugin</Filter>
+      <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_ready.hpp">
-      <Filter>plugin</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\sdk_version.hpp" />
   </ItemGroup>
 </Project>

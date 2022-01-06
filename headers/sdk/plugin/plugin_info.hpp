@@ -9,7 +9,6 @@
 // local
 #include "../sdk_version.hpp"
 #include "./plugin_callback.hpp"
-#include "./plugin_ready.hpp"
 
 namespace sdk::plugin
 {
@@ -17,8 +16,7 @@ namespace sdk::plugin
   {
     const semver::version game_version;
     const semver::version plugin_version;
-    const callback& instance;
+    const callback* instance;
     const semver::version sdk_version = version;
-    decltype(ready)* ready_callback = ready;
   };
 }

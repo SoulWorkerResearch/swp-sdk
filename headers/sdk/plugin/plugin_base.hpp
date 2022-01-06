@@ -17,5 +17,13 @@ namespace sdk::plugin
   protected:
     base(void) noexcept {}
     virtual ~base(void) noexcept {}
+
+  private:
+    constexpr virtual auto ready(const std::shared_ptr<spdlog::logger>& _logger) const -> void
+    {
+      set_default_logger(_logger);
+
+      this->main();
+    }
   };
 };

@@ -20,7 +20,7 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_emplace.hpp" />
     <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_info.hpp" />
     <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_memory.hpp" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_ready.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\plugin\plugin_loader.hpp" />
     <ClInclude Include="$(MSBuildThisFileDirectory)headers\sdk\sdk_version.hpp" />
   </ItemGroup>
 </Project>
