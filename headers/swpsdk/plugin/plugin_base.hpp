@@ -10,7 +10,7 @@
 #include "./plugin_memory.hpp"
 #include "./plugin_callback.hpp"
 
-namespace sdk::plugin
+namespace swpsdk::plugin
 {
   template <typename TPlugin> class base : public memory<TPlugin>, public callback
   {

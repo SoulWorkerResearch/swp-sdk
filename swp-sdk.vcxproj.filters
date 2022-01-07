@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="headers\game">
+      <UniqueIdentifier>{2880231a-9d89-43b0-9b3a-0fed6db71bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\plugin">
+      <UniqueIdentifier>{fe66e975-5d23-438e-aac7-e8705017021e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\game">
+      <UniqueIdentifier>{aff3efbc-90c6-4676-b68e-20703441f21e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\swpsdk\sdk_version.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\swpsdk\game\game_version.hpp">
+      <Filter>headers\game</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\swpsdk\plugin\plugin_base.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\swpsdk\plugin\plugin_callback.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\swpsdk\plugin\plugin_emplace.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\swpsdk\plugin\plugin_info.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\swpsdk\plugin\plugin_loader.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\swpsdk\plugin\plugin_memory.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\game\game_version.cpp">
+      <Filter>sources\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

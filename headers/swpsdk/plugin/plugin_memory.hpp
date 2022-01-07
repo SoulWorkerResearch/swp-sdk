@@ -1,6 +1,6 @@
 #pragma once
 
-namespace sdk::plugin
+namespace swpsdk::plugin
 {
   template <typename TPlugin> class memory
   {

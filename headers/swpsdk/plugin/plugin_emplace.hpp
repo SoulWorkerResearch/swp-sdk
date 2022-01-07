@@ -3,7 +3,7 @@
 // local
 #include "./plugin_info.hpp"
 
-namespace sdk::plugin
+namespace swpsdk::plugin
 {
 #ifdef SWP_SDK_API
   static_assert("wtf?");

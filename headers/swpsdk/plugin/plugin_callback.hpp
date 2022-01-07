@@ -2,7 +2,7 @@
 
 #include "plugin_loader.hpp"
 
-namespace sdk::plugin
+namespace swpsdk::plugin
 {
   class callback : private loader
   {

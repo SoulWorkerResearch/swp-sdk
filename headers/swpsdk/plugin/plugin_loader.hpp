@@ -6,7 +6,7 @@
 // cpp
 #include <memory>
 
-namespace sdk::plugin
+namespace swpsdk::plugin
 {
   class loader
   {

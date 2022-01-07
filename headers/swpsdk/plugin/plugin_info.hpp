@@ -7,14 +7,15 @@
 #include <string_view>
 
 // local
+#include "../game/game_version.hpp"
 #include "../sdk_version.hpp"
 #include "./plugin_callback.hpp"
 
-namespace sdk::plugin
+namespace swpsdk::plugin
 {
   struct info final
   {
-    const semver::version game_version;
+    const game::version game_version;
     const semver::version plugin_version;
     const callback* instance;
     const semver::version sdk_version = version;
