@@ -32,7 +32,7 @@
     <ClInclude Include="headers\swpsdk\plugin\plugin_callback.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\plugin_emplace.hpp">
+    <ClInclude Include="headers\swpsdk\plugin\plugin_attach.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
     <ClInclude Include="headers\swpsdk\plugin\plugin_info.hpp">

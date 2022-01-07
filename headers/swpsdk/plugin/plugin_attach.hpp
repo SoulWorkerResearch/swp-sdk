@@ -15,7 +15,7 @@ namespace swpsdk::plugin
 #define SWP_SDK_API 
 #endif
 
-  SWP_SDK_API [[nodiscard]] auto emplace(void)->info*;
+  SWP_SDK_API [[nodiscard]] auto attach(void)->info*;
 
 #undef SWP_SDK_API
 }

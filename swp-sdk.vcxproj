@@ -175,7 +175,7 @@
     <ClInclude Include="headers\swpsdk\game\game_version.hpp" />
     <ClInclude Include="headers\swpsdk\plugin\plugin_base.hpp" />
     <ClInclude Include="headers\swpsdk\plugin\plugin_callback.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\plugin_emplace.hpp" />
+    <ClInclude Include="headers\swpsdk\plugin\plugin_attach.hpp" />
     <ClInclude Include="headers\swpsdk\plugin\plugin_info.hpp" />
     <ClInclude Include="headers\swpsdk\plugin\plugin_loader.hpp" />
     <ClInclude Include="headers\swpsdk\plugin\plugin_memory.hpp" />
