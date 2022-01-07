@@ -10,13 +10,12 @@ namespace sdk::plugin
 #endif
 
 #ifndef SWP_LOADER
-#define SWP_SDK_API extern "C" __declspec(dllexport)
+#define SWP_SDK_API extern "C" __declspec(dllexport) 
 #else
-#define SWP_SDK_API
+#define SWP_SDK_API 
 #endif
 
-  [[nodiscard]]
-  SWP_SDK_API auto emplace(void)->info*;
+  SWP_SDK_API [[nodiscard]] auto emplace(void)->info*;
 
 #undef SWP_SDK_API
 }
