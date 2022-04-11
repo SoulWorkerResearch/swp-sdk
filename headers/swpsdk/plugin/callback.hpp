@@ -1,12 +1,12 @@
 #pragma once
 
-#include "plugin_loader.hpp"
+#include "loader.hpp"
 
 namespace swpsdk::plugin
 {
-  class callback : private loader
+  class callback
   {
-  public:
+  protected:
     constexpr virtual auto main(void) const -> void = 0;
 
   protected:

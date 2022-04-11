@@ -63,8 +63,6 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared">
-  </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -172,17 +170,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="headers\swpsdk\game\game_version.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\plugin_base.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\plugin_callback.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\plugin_attach.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\plugin_info.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\plugin_loader.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\plugin_memory.hpp" />
-    <ClInclude Include="headers\swpsdk\sdk_version.hpp" />
+    <None Include="LICENSE" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sources\game\game_version.cpp" />
+    <ClInclude Include="headers\swpsdk\defines.hpp" />
+    <ClInclude Include="headers\swpsdk\plugin\attach.hpp" />
+    <ClInclude Include="headers\swpsdk\plugin\base.hpp" />
+    <ClInclude Include="headers\swpsdk\plugin\callback.hpp" />
+    <ClInclude Include="headers\swpsdk\plugin\info.hpp" />
+    <ClInclude Include="headers\swpsdk\plugin\loader.hpp" />
+    <ClInclude Include="headers\swpsdk\plugin\memory.hpp" />
+    <ClInclude Include="headers\swpsdk\utils\spdlog_formatter.hpp" />
+    <ClInclude Include="headers\swpsdk\version.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\version.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\swp-v-sdk\swp-v-sdk.vcxproj">
+      <Project>{550b92d0-5cd6-4d1e-a071-fc276f76589a}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

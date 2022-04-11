@@ -1,7 +1,7 @@
 #pragma once
 
 // local
-#include "./plugin_info.hpp"
+#include "./info.hpp"
 
 namespace swpsdk::plugin
 {
@@ -10,9 +10,9 @@ namespace swpsdk::plugin
 #endif
 
 #ifndef SWP_LOADER
-#define SWP_SDK_API extern "C" __declspec(dllexport) 
+# define SWP_SDK_API extern "C" __declspec(dllexport) 
 #else
-#define SWP_SDK_API 
+# define SWP_SDK_API 
 #endif
 
   SWP_SDK_API [[nodiscard]] auto attach(void)->info*;

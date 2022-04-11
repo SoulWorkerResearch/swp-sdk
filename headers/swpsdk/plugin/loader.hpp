@@ -11,6 +11,6 @@ namespace swpsdk::plugin
   class loader
   {
   public:
-    constexpr virtual auto ready(const std::shared_ptr<spdlog::logger>& _logger) const -> void = 0;
+    constexpr virtual auto attach(const std::shared_ptr<spdlog::logger>& _logger) const -> void = 0;
   };
 }

@@ -15,39 +15,46 @@
     <Filter Include="headers\plugin">
       <UniqueIdentifier>{fe66e975-5d23-438e-aac7-e8705017021e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="sources\game">
-      <UniqueIdentifier>{aff3efbc-90c6-4676-b68e-20703441f21e}</UniqueIdentifier>
+    <Filter Include="headers\utils">
+      <UniqueIdentifier>{ac032606-6680-4114-9a48-b72473ec10d8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="headers\swpsdk\sdk_version.hpp">
+    <None Include="README.md" />
+    <None Include="LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\swpsdk\defines.hpp">
       <Filter>headers</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\game\game_version.hpp">
-      <Filter>headers\game</Filter>
+    <ClInclude Include="headers\swpsdk\version.hpp">
+      <Filter>headers</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\plugin_base.hpp">
+    <ClInclude Include="headers\swpsdk\plugin\attach.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\plugin_callback.hpp">
+    <ClInclude Include="headers\swpsdk\plugin\base.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\plugin_attach.hpp">
+    <ClInclude Include="headers\swpsdk\plugin\callback.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\plugin_info.hpp">
+    <ClInclude Include="headers\swpsdk\plugin\info.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\plugin_loader.hpp">
+    <ClInclude Include="headers\swpsdk\plugin\loader.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\plugin_memory.hpp">
+    <ClInclude Include="headers\swpsdk\plugin\memory.hpp">
       <Filter>headers\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\swpsdk\utils\spdlog_formatter.hpp">
+      <Filter>headers\utils</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sources\game\game_version.cpp">
-      <Filter>sources\game</Filter>
+    <ClCompile Include="sources\version.cpp">
+      <Filter>sources</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
