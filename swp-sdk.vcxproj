@@ -187,11 +187,6 @@
   <ItemGroup>
     <ClCompile Include="sources\version.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\swp-v-sdk\swp-v-sdk.vcxproj">
-      <Project>{550b92d0-5cd6-4d1e-a071-fc276f76589a}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
