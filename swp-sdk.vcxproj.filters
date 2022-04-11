@@ -9,9 +9,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="headers\game">
-      <UniqueIdentifier>{2880231a-9d89-43b0-9b3a-0fed6db71bc7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="headers\plugin">
       <UniqueIdentifier>{fe66e975-5d23-438e-aac7-e8705017021e}</UniqueIdentifier>
     </Filter>
