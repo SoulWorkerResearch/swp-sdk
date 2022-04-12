@@ -12,23 +12,10 @@
 
 namespace swpsdk::plugin
 {
-  template <typename TPlugin> class base : public memory<TPlugin>, public callback, private loader
+  template <typename TPlugin> class base : public memory<TPlugin>, public callback
   {
   protected:
     base(void) noexcept {}
     virtual ~base(void) noexcept {}
-
-  private:
-    constexpr auto attach(const std::shared_ptr<spdlog::logger>& _logger) const -> void override final
-    {
-      setup_logger(_logger);
-
-      this->main();
-    }
-
-    static auto setup_logger(const std::shared_ptr<spdlog::logger>& _logger) -> void
-    {
-      set_default_logger(_logger);
-    }
   };
 };
