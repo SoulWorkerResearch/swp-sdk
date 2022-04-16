@@ -42,10 +42,10 @@
     <ClInclude Include="headers\swpsdk\plugin\loader.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\memory.hpp">
-      <Filter>headers\plugin</Filter>
-    </ClInclude>
     <ClInclude Include="headers\swpsdk\utils\spdlog_formatter.hpp">
+      <Filter>headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\swpsdk\utils\memory.hpp">
       <Filter>headers\utils</Filter>
     </ClInclude>
   </ItemGroup>

@@ -180,7 +180,7 @@
     <ClInclude Include="headers\swpsdk\plugin\callback.hpp" />
     <ClInclude Include="headers\swpsdk\plugin\info.hpp" />
     <ClInclude Include="headers\swpsdk\plugin\loader.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\memory.hpp" />
+    <ClInclude Include="headers\swpsdk\utils\memory.hpp" />
     <ClInclude Include="headers\swpsdk\utils\spdlog_formatter.hpp" />
     <ClInclude Include="headers\swpsdk\version.hpp" />
   </ItemGroup>
