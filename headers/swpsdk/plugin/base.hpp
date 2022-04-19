@@ -1,11 +1,5 @@
 #pragma once
 
-// windows
-#include <Windows.h>
-
-// cpp
-#include <string_view>
-
 // local
 #include "../utils/memory.hpp"
 #include "./callback.hpp"
