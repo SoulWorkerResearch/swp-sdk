@@ -5,5 +5,5 @@
 
 namespace swpsdk
 {
-  static constexpr const swpsdk::version current_version{ 1, 0, 1, 30 };
+  static constexpr const swpsdk::version current_version{ 1, 0, 1, 33 };
 }
