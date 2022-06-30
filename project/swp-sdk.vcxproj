@@ -61,8 +61,7 @@
     <EnableUnitySupport>true</EnableUnitySupport>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <ImportGroup Label="ExtensionSettings">
-  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings"></ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -111,8 +110,7 @@
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
     </ClCompile>
     <Link>
-      <SubSystem>
-      </SubSystem>
+      <SubSystem></SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -130,8 +128,7 @@
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
     </ClCompile>
     <Link>
-      <SubSystem>
-      </SubSystem>
+      <SubSystem></SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -149,8 +146,7 @@
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
     </ClCompile>
     <Link>
-      <SubSystem>
-      </SubSystem>
+      <SubSystem></SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -178,20 +174,19 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="headers\swpsdk\defines.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\attach.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\base.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\callback.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\info.hpp" />
-    <ClInclude Include="headers\swpsdk\plugin\loader.hpp" />
-    <ClInclude Include="headers\swpsdk\utils\memory.hpp" />
-    <ClInclude Include="headers\swpsdk\utils\spdlog_formatter.hpp" />
-    <ClInclude Include="headers\swpsdk\version.hpp" />
+    <ClInclude Include="..\headers\swpsdk\defines.hpp" />
+    <ClInclude Include="..\headers\swpsdk\plugin\attach.hpp" />
+    <ClInclude Include="..\headers\swpsdk\plugin\base.hpp" />
+    <ClInclude Include="..\headers\swpsdk\plugin\callback.hpp" />
+    <ClInclude Include="..\headers\swpsdk\plugin\info.hpp" />
+    <ClInclude Include="..\headers\swpsdk\plugin\loader.hpp" />
+    <ClInclude Include="..\headers\swpsdk\utils\memory.hpp" />
+    <ClInclude Include="..\headers\swpsdk\utils\spdlog_formatter.hpp" />
+    <ClInclude Include="..\headers\swpsdk\version.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sources\version.cpp" />
+    <ClCompile Include="..\sources\version.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
-  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets"></ImportGroup>
 </Project>

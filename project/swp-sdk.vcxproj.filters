@@ -21,36 +21,36 @@
     <None Include="LICENSE" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="headers\swpsdk\defines.hpp">
+    <ClInclude Include="..\headers\swpsdk\defines.hpp">
       <Filter>headers</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\version.hpp">
+    <ClInclude Include="..\headers\swpsdk\version.hpp">
       <Filter>headers</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\attach.hpp">
+    <ClInclude Include="..\headers\swpsdk\plugin\attach.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\base.hpp">
+    <ClInclude Include="..\headers\swpsdk\plugin\base.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\callback.hpp">
+    <ClInclude Include="..\headers\swpsdk\plugin\callback.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\info.hpp">
+    <ClInclude Include="..\headers\swpsdk\plugin\info.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\plugin\loader.hpp">
+    <ClInclude Include="..\headers\swpsdk\plugin\loader.hpp">
       <Filter>headers\plugin</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\utils\spdlog_formatter.hpp">
+    <ClInclude Include="..\headers\swpsdk\utils\spdlog_formatter.hpp">
       <Filter>headers\utils</Filter>
     </ClInclude>
-    <ClInclude Include="headers\swpsdk\utils\memory.hpp">
+    <ClInclude Include="..\headers\swpsdk\utils\memory.hpp">
       <Filter>headers\utils</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sources\version.cpp">
+    <ClCompile Include="..\sources\version.cpp">
       <Filter>sources</Filter>
     </ClCompile>
   </ItemGroup>
