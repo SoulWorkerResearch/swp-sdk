@@ -8,7 +8,7 @@ This repository contains auxiliary code for developing plugins for this great ga
 
 ## How to
 
-- [Documentation can be found here.] (https://github.com/SoulWorkerResearch/swp-sdk-docs)
+- [Documentation can be found here](https://github.com/SoulWorkerResearch/swp-sdk-docs)
 
 ## [Well cum 👌 to discord](http://discord.gg/SequFJP)
 
