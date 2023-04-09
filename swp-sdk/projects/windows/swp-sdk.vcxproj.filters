@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="headers\natives">
+      <UniqueIdentifier>{b1e0ceba-71c3-4c20-851b-5d32a4be716c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\detour">
+      <UniqueIdentifier>{b754c02b-5fa7-4cd6-b39d-4925f4385524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\helpers">
+      <UniqueIdentifier>{a06eb67b-ee1b-4e7d-b181-ae87d318feae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\detour">
+      <UniqueIdentifier>{8ea1f122-ea17-4a28-823d-99b0e228d6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\plugin">
+      <UniqueIdentifier>{668a7c6c-33c6-4992-9b25-5849fd54c721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\extensions">
+      <UniqueIdentifier>{78ffb696-59f6-4b9b-aa70-6fec3e657f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\extensions\spdlog">
+      <UniqueIdentifier>{a7b5d981-e496-4ff7-ad57-aeddb06eb40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\fmt-formatters">
+      <UniqueIdentifier>{621d179a-0d0a-414d-a789-270612806b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\configs">
+      <UniqueIdentifier>{f53ebd99-e5fb-46f9-87de-1a38b5146621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\parsers">
+      <UniqueIdentifier>{d753750c-8c72-4063-b038-3fc2bcf1da00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\plugins">
+      <UniqueIdentifier>{d84eb8e0-58dc-4553-99c8-3b3159500360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\plugins\vision">
+      <UniqueIdentifier>{c9a13ca4-24ef-48db-92ea-5eff9e756096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\plugins\fmod">
+      <UniqueIdentifier>{9ffb4f25-b932-4cd5-8fec-3cd80c9dd719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\plugins\game">
+      <UniqueIdentifier>{0e6949f0-a2a6-462b-ba41-922960e696e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sources\detour\transaction.cpp">
+      <Filter>sources\detour</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\pch.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\version.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\headers\swpsdk\framework.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\pch.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\targetver.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\detour\attach.hpp">
+      <Filter>headers\detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\detour\detach.hpp">
+      <Filter>headers\detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\detour\transaction.hpp">
+      <Filter>headers\detour</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\version.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\plugin\base.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\plugin\callback.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\plugin\get_info.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\plugin\info.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\plugin\loader.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\helpers\memory.hpp">
+      <Filter>headers\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\extensions\spdlog\system_error.hpp">
+      <Filter>headers\extensions\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\fmt-formatters\directory_entry.hpp">
+      <Filter>headers\fmt-formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\fmt-formatters\path.hpp">
+      <Filter>headers\fmt-formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\fmt-formatters\version.hpp">
+      <Filter>headers\fmt-formatters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\configs\ver.hpp">
+      <Filter>headers\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\parsers\from_pair.hpp">
+      <Filter>headers\parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\parsers\ini_schema.hpp">
+      <Filter>headers\parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\sdk_version.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\plugin\defines.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\headers\swpsdk\plugin\get_version.hpp">
+      <Filter>headers\plugin</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
