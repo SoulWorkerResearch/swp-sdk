@@ -5,5 +5,5 @@
 
 namespace swpsdk
 {
-	inline constexpr const version sdk_version{ 2, 0, 0 };
+	inline constexpr const version sdk_version{ 2, 0, 1 };
 }
