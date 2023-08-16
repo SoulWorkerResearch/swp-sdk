@@ -4,11 +4,10 @@
 #include <format>
 
 template<>
-struct std::formatter<std::filesystem::directory_entry> : std::formatter<std::string>
+struct std::formatter<std::filesystem::directory_entry> : formatter<string_view>
 {
-	template <typename FormatContext>
-	auto format(const std::filesystem::directory_entry& _value, FormatContext& _context) -> decltype(_context.out())
+	auto format(std::filesystem::directory_entry _value, format_context& _context) const
 	{
-		return std::formatter<std::string>::format(_value.path().string(), _context);
+		return formatter<string_view>::format(_value.path().string(), _context);
 	}
 };
