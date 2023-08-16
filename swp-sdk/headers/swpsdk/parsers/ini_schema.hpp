@@ -14,7 +14,6 @@ namespace swpsdk::parsers
 		template <class TSection, class TRow>
 		constexpr void row(std::string_view _key_name, std::string_view _section_name, TSection&& _section, TRow&& _row)
 		{
-			
 			m_value.*_section.*_row = from<decltype(m_value.*_section.*_row)>(_key_name, _section_name);
 		}
 
